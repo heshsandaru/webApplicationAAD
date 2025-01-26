@@ -25,7 +25,7 @@
         Class.forName("com.mysql.cj.jdbc.Driver");
         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/webApplicationAAD", "root", "Ijse@123");
 
-        String sql = "SELECT id, name, price FROM products";
+        String sql = "SELECT id, name, price ,description FROM products";
         ps = connection.prepareStatement(sql);
         rs = ps.executeQuery();
 
@@ -33,10 +33,11 @@
           int id = rs.getInt("id");
           String name = rs.getString("name");
           double price = rs.getDouble("price");
+          String image = rs.getString("description");
     %>
     <div class="col-md-4 mb-4">
       <div class="card shadow-sm">
-        <img src="image?id=<%= id %>" class="card-img-top" alt="<%= name %>">
+        <img src="http://localhost:8080/webapplicationAAD_Web_exploded/<%=image%>" class="card-img-top" alt="<%= name %>">
         <div class="card-body text-center">
           <h5 class="card-title"><%= name %></h5>
           <p class="card-text">Price: $<%= String.format("%.2f", price) %></p>

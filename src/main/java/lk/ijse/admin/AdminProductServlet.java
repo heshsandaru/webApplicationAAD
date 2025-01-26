@@ -48,7 +48,7 @@ public class AdminProductServlet extends HttpServlet {
         Part filePart = req.getPart("description");
 
         String imagePath = saveFile(filePart);
-
+        System.out.println(imagePath);
         try (Connection connection = dataSource.getConnection()) {
             String sql = "INSERT INTO products (name, description, price, quantity, category_id) VALUES (?, ?, ?, ?, ?)";
             try (PreparedStatement ps = connection.prepareStatement(sql)) {
