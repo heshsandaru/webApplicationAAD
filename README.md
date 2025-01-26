@@ -33,5 +33,6 @@ The e-commerce application allows administrators to manage products, categories,
 ![Screenshot 2025-01-26 220515](https://github.com/user-attachments/assets/812b966f-e4dc-41a9-b702-affb81776f36)
 assets/a9ac1b88-8ac1-4a32-ae4e-01aa39eca6ab)
 ![Screenshot 2025-01-26 220833](https://github.com/user-attachments/assets/0aec8635-5173-49fd-be65-6ceea49e74c2)
+![Screenshot 2025-01-26 220945](https://github.com/user-attachments/assets/87abe284-d05d-412d-bacb-478a3b4579a6)
 
 ts*
