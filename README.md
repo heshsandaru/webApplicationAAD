@@ -25,6 +25,7 @@ The e-commerce application allows administrators to manage products, categories,
 - *Order Placement*: Place orders and view order history.
 - *User Profile Management*: Update personal information and password.
 
+
 ---
 
 
@@ -36,3 +37,4 @@ assets/a9ac1b88-8ac1-4a32-ae4e-01aa39eca6ab)
 ![Screenshot 2025-01-26 220945](https://github.com/user-attachments/assets/87abe284-d05d-412d-bacb-478a3b4579a6)
 
 ts*
+![Screenshot 2025-01-26 221152](https://github.com/user-attachments/assets/32d7d039-bb88-4ae1-8e38-8105592770e1)
