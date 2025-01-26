@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/webApplicationAAD">
+    <Resource name="jdbc/pool"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="100"
+              maxIdle="30"
+              maxWaitMillis="10000"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/webApplicationAAD?useSSL=false"
+              username="root"
+              password="Ijse@123"/>
+
+</Context>
